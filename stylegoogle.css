@@ -1,0 +1,70 @@
+/* Feuille de style */
+#conteneur
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px; /* Un peu de hauteur pour que les éléments aient la place de bouger */
+}
+
+.topsection {
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+.image {
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+.searchbar{
+  display:flex;
+  flex-direction: column;
+}
+
+.searchbuttons{
+  display:flex;
+  justify-content: space-around;
+}
+
+.button1{
+  width: 100%
+  text-align: right;
+}
+.button2{
+  width: 100%
+  text-align: left;
+}
+
+body
+{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+ul {
+ padding:0;
+ margin:2px;
+ list-style-type:none;
+ text-align: right;
+ }
+ 
+ li {
+ margin-left:2px;
+ float:right;
+
+ }
+
+ img {
+  width: 50%;
+  height: 50%;
+
+}
+
+nav
+{	
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    float:right;
+    
+}
